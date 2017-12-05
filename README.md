@@ -1,5 +1,12 @@
 # UIPickerViewDemo
 
+
+1）Demo中中已经封装成ZGPickerView类，继承自UIPickerView。
+2）数据源支持一维数组和二维数组。
+3) 支持自定义部分UI属性
+3）选中数据索引通过delegate，回调给用户
+
+
     CGFloat width = 230;
     CGFloat height = 200;
     CGFloat originX = (kScreenSize.width - width)*0.5;
