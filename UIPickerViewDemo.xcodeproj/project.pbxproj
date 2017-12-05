@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B12957EA1FD6B49D0075CDEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B12957E91FD6B49D0075CDEA /* AppDelegate.m */; };
+		B12957ED1FD6B49D0075CDEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12957EC1FD6B49D0075CDEA /* ViewController.m */; };
+		B12957F01FD6B49D0075CDEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B12957EE1FD6B49D0075CDEA /* Main.storyboard */; };
+		B12957F21FD6B49D0075CDEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B12957F11FD6B49D0075CDEA /* Assets.xcassets */; };
+		B12957F51FD6B49D0075CDEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B12957F31FD6B49D0075CDEA /* LaunchScreen.storyboard */; };
+		B12957F81FD6B49D0075CDEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B12957F71FD6B49D0075CDEA /* main.m */; };
+		B12958001FD6B4D90075CDEA /* ZGPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B12957FF1FD6B4D90075CDEA /* ZGPickerView.m */; };
+		B12958031FD6B9FC0075CDEA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12958021FD6B9FC0075CDEA /* FirstViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B12957E51FD6B49C0075CDEA /* UIPickerViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIPickerViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B12957E81FD6B49C0075CDEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B12957E91FD6B49D0075CDEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B12957EB1FD6B49D0075CDEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B12957EC1FD6B49D0075CDEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B12957EF1FD6B49D0075CDEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B12957F11FD6B49D0075CDEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B12957F41FD6B49D0075CDEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B12957F61FD6B49D0075CDEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B12957F71FD6B49D0075CDEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B12957FE1FD6B4D90075CDEA /* ZGPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGPickerView.h; sourceTree = "<group>"; };
+		B12957FF1FD6B4D90075CDEA /* ZGPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGPickerView.m; sourceTree = "<group>"; };
+		B12958011FD6B9FC0075CDEA /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		B12958021FD6B9FC0075CDEA /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B12957E21FD6B49C0075CDEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B12957DC1FD6B49C0075CDEA = {
+			isa = PBXGroup;
+			children = (
+				B12957E71FD6B49C0075CDEA /* UIPickerViewDemo */,
+				B12957E61FD6B49C0075CDEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B12957E61FD6B49C0075CDEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B12957E51FD6B49C0075CDEA /* UIPickerViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B12957E71FD6B49C0075CDEA /* UIPickerViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B12957E81FD6B49C0075CDEA /* AppDelegate.h */,
+				B12957E91FD6B49D0075CDEA /* AppDelegate.m */,
+				B12958011FD6B9FC0075CDEA /* FirstViewController.h */,
+				B12958021FD6B9FC0075CDEA /* FirstViewController.m */,
+				B12957EB1FD6B49D0075CDEA /* ViewController.h */,
+				B12957EC1FD6B49D0075CDEA /* ViewController.m */,
+				B12957EE1FD6B49D0075CDEA /* Main.storyboard */,
+				B12957F11FD6B49D0075CDEA /* Assets.xcassets */,
+				B12957F31FD6B49D0075CDEA /* LaunchScreen.storyboard */,
+				B12957F61FD6B49D0075CDEA /* Info.plist */,
+				B12957F71FD6B49D0075CDEA /* main.m */,
+				B12957FE1FD6B4D90075CDEA /* ZGPickerView.h */,
+				B12957FF1FD6B4D90075CDEA /* ZGPickerView.m */,
+			);
+			path = UIPickerViewDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B12957E41FD6B49C0075CDEA /* UIPickerViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B12957FB1FD6B49D0075CDEA /* Build configuration list for PBXNativeTarget "UIPickerViewDemo" */;
+			buildPhases = (
+				B12957E11FD6B49C0075CDEA /* Sources */,
+				B12957E21FD6B49C0075CDEA /* Frameworks */,
+				B12957E31FD6B49C0075CDEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIPickerViewDemo;
+			productName = UIPickerViewDemo;
+			productReference = B12957E51FD6B49C0075CDEA /* UIPickerViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B12957DD1FD6B49C0075CDEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Bulet;
+				TargetAttributes = {
+					B12957E41FD6B49C0075CDEA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B12957E01FD6B49C0075CDEA /* Build configuration list for PBXProject "UIPickerViewDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B12957DC1FD6B49C0075CDEA;
+			productRefGroup = B12957E61FD6B49C0075CDEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B12957E41FD6B49C0075CDEA /* UIPickerViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B12957E31FD6B49C0075CDEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12957F51FD6B49D0075CDEA /* LaunchScreen.storyboard in Resources */,
+				B12957F21FD6B49D0075CDEA /* Assets.xcassets in Resources */,
+				B12957F01FD6B49D0075CDEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B12957E11FD6B49C0075CDEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12957ED1FD6B49D0075CDEA /* ViewController.m in Sources */,
+				B12957F81FD6B49D0075CDEA /* main.m in Sources */,
+				B12958031FD6B9FC0075CDEA /* FirstViewController.m in Sources */,
+				B12957EA1FD6B49D0075CDEA /* AppDelegate.m in Sources */,
+				B12958001FD6B4D90075CDEA /* ZGPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B12957EE1FD6B49D0075CDEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B12957EF1FD6B49D0075CDEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B12957F31FD6B49D0075CDEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B12957F41FD6B49D0075CDEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B12957F91FD6B49D0075CDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B12957FA1FD6B49D0075CDEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B12957FC1FD6B49D0075CDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UIPickerViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bulet.UIPickerViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B12957FD1FD6B49D0075CDEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UIPickerViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bulet.UIPickerViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B12957E01FD6B49C0075CDEA /* Build configuration list for PBXProject "UIPickerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B12957F91FD6B49D0075CDEA /* Debug */,
+				B12957FA1FD6B49D0075CDEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B12957FB1FD6B49D0075CDEA /* Build configuration list for PBXNativeTarget "UIPickerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B12957FC1FD6B49D0075CDEA /* Debug */,
+				B12957FD1FD6B49D0075CDEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B12957DD1FD6B49C0075CDEA /* Project object */;
+}
